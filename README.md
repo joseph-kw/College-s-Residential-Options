@@ -32,9 +32,7 @@ during the 1st round of Application for freshmen.
 b. (casmida_p1.py) Using Pushshift API to gather large 
 amount of Reddit comments and create a dataset from 
 the period of time that was mentioned above for the 
-subreddit r/nus. Pushshift is a service that take in 
-comments from Redit, stores them in a database, and 
-making them available for use via an API endpoint.
+subreddit r/nus. 
 c. While using Python 3.7.8, importing the pandas and 
 pmaw library, search_comments were used to request 
 Reddit comments from Pushshift within the date range
