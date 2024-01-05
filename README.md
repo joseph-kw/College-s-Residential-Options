@@ -23,25 +23,3 @@ residential options and may consider alternative options (Less
 popular Residential Options, Off-campus residences etc.) in the 
 case of their unsuccessful application due to high demand, based 
 on the findings.
-
-5. Methodology:
-a. Using the period of 1 May – 1 June 2021 as there is a 
-huge influx of new and current Undergraduates
-discussing/commenting on the residential options as it is 
-during the 1st round of Application for freshmen.
-b. (casmida_p1.py) Using Pushshift API to gather large 
-amount of Reddit comments and create a dataset from 
-the period of time that was mentioned above for the 
-subreddit r/nus. 
-c. While using Python 3.7.8, importing the pandas and 
-pmaw library, search_comments were used to request 
-Reddit comments from Pushshift within the date range
-and pandas to retrieve the comments data.
-d. The Reddit data will then be stored locally and will be 
-saved as a CSV file named “nus_comments.csv”
-e. (casmida_p2.py) Counting the number of word frequency 
-from the column “body” in “nus_comments.csv” which is 
-the column with the comments. Thereafter, making use of
-matplotlib library that was imported to plot a pie chart to 
-represent the figures such that it is easier to interpret the 
-results by the reader.
